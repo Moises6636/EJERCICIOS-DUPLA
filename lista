@@ -1,0 +1,12 @@
+# Crear una lista llamada lista_de_compras con al menos cinco ítems
+lista_de_compras = ["manzanas", "pan", "leche", "huevos", "arroz"]
+
+# Imprimir los ítems en la lista uno por uno
+for item in lista_de_compras:
+    print(item)
+
+# Agregar "pastel" a la lista
+lista_de_compras.append("pastel")
+
+# Imprimir la lista actualizada
+print(lista_de_compras)
